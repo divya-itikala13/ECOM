@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOM - Your E-commerce Solution</title>
+    <link rel="stylesheet" href="ecom.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <span class="logo">ECOM</span>
+            <ul class="nav-links">
+                <li><a href="#" id="login-link">Login</a></li>
+                <li><a href="#" id="register-link">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <span class="close-btn" id="login-close">&times;</span>
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal" id="register-modal">
+        <div class="modal-content">
+            <span class="close-btn" id="register-close">&times;</span>
+            <h2>Register</h2>
+            <form id="register-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="ecom.js"></script>
+</body>
+</html>
