@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Basic styles for navbar */
+
 .navbar {
     background-color: #8fe6c9;
     color: #0a0a0a;
@@ -44,7 +44,7 @@
     color: #111010;
 }
 
-/* Modal styles */
+
 .modal {
     display: none;
     position: fixed;
