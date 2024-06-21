@@ -21,7 +21,7 @@ registerClose.addEventListener('click', () => {
     registerModal.style.display = 'none';
 });
 
-// Close modals on outside click
+
 window.addEventListener('click', (e) => {
     if (e.target === loginModal) {
         loginModal.style.display = 'none';
@@ -31,7 +31,6 @@ window.addEventListener('click', (e) => {
     }
 });
 
-// Prevent form submission (for demonstration)
 document.getElementById('login-form').addEventListener('submit', (e) => {
     e.preventDefault();
     alert('Login form submitted!');
